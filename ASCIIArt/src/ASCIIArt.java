@@ -15,7 +15,44 @@
  */
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
+
+	public static void main(String[] args) {
+		steam ();
+		System.out.println(".--------------------.");
+		mugTop ();
+		mugSide ();
+		System.out.println("| /\\Cool Hot Choco\\/ |__");
+		middleHandle ();
+		middleHandle ();
+		System.out.println("|                    |__]");
+		mugSide ();
+		mugSide ();
+		mugSide ();
+		mugTop ();
 	}
+
+	public static void steam () {
+		//Steam above the Hot chocolate mug
+		System.out.println("  (");
+		System.out.println("   )        (");
+		System.out.println("             )     )");
+		System.out.println("       )          (");
+		System.out.println("      (");
+	}
+	
+	public static void middleHandle () {
+		//needed for the middle of the handle
+		System.out.println("|                    |  ]");
+	}
+	
+	public static void mugSide () {
+		//sides of mug without the handle
+		System.out.println("|                    |");
+		
+	}
+	public static void mugTop () {
+		//for the top and the bottom of mug
+		System.out.println("\"--------------------\"");
+	}
+	
 }
